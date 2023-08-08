@@ -1,0 +1,12 @@
+Methods are basically a function which are written inside a class.
+Any variable defined inside class will be defined inside a special function called __init__(constructor)
+
+constructor is also known as magic method/dunder
+
+magic-method :--> Automatically called if certain conditions are met
+
+
+self is defined as the object to which you are currently working.
+(Jis bhi object ke saath aap abhi kaam kar rahe ho wahi self hain)
+
+__str__(),__add__()
