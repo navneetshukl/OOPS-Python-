@@ -24,7 +24,6 @@ and setter function for accessing and changing the value of data.
 
                            ### Reference variable ### 
 
-
 sbi=Atm()  here sbi is refernce variable.
 At the time of creating object the variable which point to the address where the object is created that variable
 is known as the reference variable.
@@ -33,3 +32,11 @@ is known as the reference variable.
                             ### Pass_By_reference ###
 
 Objects of class are also mutable like lists,dictionaries and sets.
+
+                            ### Static variable ###
+
+Static variable is created outside of the constructor.A static variable is said to be a 
+class variable that is common to all class members.We can access the static varoiable by using the class name.
+We can make the static variable unaccessible by using "__" in front of static variable name like __static.variable. 
+We can make getter and setter for accessing the value. We will not pass "self" in getter and setter methods
+because the static variable will use classname.
