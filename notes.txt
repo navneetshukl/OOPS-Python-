@@ -21,3 +21,15 @@ object._ClassName__VariableName
 
 Don't allow your data to be directly accessed.This is the main concept of encapsulation.We can make the getter 
 and setter function for accessing and changing the value of data.
+
+                           ### Reference variable ### 
+
+
+sbi=Atm()  here sbi is refernce variable.
+At the time of creating object the variable which point to the address where the object is created that variable
+is known as the reference variable.
+
+
+                            ### Pass_By_reference ###
+
+Objects of class are also mutable like lists,dictionaries and sets.
