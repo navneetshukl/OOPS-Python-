@@ -10,3 +10,14 @@ self is defined as the object to which you are currently working.
 (Jis bhi object ke saath aap abhi kaam kar rahe ho wahi self hain)
 
 __str__(),__add__()
+
+Any variable created inside the constructor is called the instance variable.Because the value of these variables are
+different for different objects.
+
+For  making an variable private in python we will use __ in front of variable name. E.g. __pin,__balance
+
+Nothing in python is truly private.if we define any variable private in python we can still access it by using
+object._ClassName__VariableName
+
+Don't allow your data to be directly accessed.This is the main concept of encapsulation.We can make the getter 
+and setter function for accessing and changing the value of data.
