@@ -56,3 +56,7 @@ Object of child class cannot access the private members of parent class.Method o
 
 In case of multiple inheritance the order of inheritance matters.The class which is first in order will have 
 high Priority.
+
+                            ### Method-Overloading ###
+
+Technically method overloading is not possible in Python.
