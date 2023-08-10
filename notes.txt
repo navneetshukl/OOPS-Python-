@@ -40,3 +40,19 @@ class variable that is common to all class members.We can access the static varo
 We can make the static variable unaccessible by using "__" in front of static variable name like __static.variable. 
 We can make getter and setter for accessing the value. We will not pass "self" in getter and setter methods
 because the static variable will use classname.
+
+                              ### Inheritance ###
+
+Code reusability is one of the important use of Inheritance.We inherit all the data member , member functions, and
+constructors.Private members are not inherited.
+Object of child class cannot access the private members of parent class.Method overriding happens in inheritance.
+
+                             ### Type of Inheritance: ###
+
+1. Single level inheritance
+2. Multi level Inheritance
+3. Hierarchial Inheritance
+4. Multiple Inheritance
+
+In case of multiple inheritance the order of inheritance matters.The class which is first in order will have 
+high Priority.
